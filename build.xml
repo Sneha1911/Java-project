@@ -10,7 +10,7 @@
 
   <path id="class.path">
     <pathelement location="/usr/lib/jvm/jre-1.8.0-openjdk" />
-    <pathelement location="./bin" />
+    <!--pathelement location="./bin" /-->
   </path>
 
   <!-- Deletes the existing build, docs and dist directory-->
