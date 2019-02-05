@@ -5,22 +5,22 @@ public class RectangleTest {
 	Rectangle myRectangle = new Rectangle(4,5);
 	
 	@Test
-	public voic testGetArea(){
+	public void testGetArea(){
 		assertEquals(myRectangle.getArea(), 20);
 	}
 	
 	@Test
-	public voic testGetPerimeter(){
+	public void testGetPerimeter(){
 		assertEquals(myRectangle.getPerimeter(), 18);
 	}
 	
 	@Test
-	public voic testLength(){
+	public void testLength(){
 		assertEquals(myRectangle.length(), 4);
 	}
 	
 	@Test
-	public voic testWidth(){
+	public void testWidth(){
 		assertEquals(myRectangle.width(), 5);
 	}
 }
