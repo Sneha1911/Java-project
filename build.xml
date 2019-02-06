@@ -11,7 +11,7 @@
   <path id="class.path">
     <!--pathelement location="/usr/lib/jvm/jre-1.8.0-openjdk" /-->
 	<pathelement location="./lib/junit-4.10.jar" />	
-    <pathelement location="./bin" />
+     <pathelement location="${build.dir}" />
   </path>
 
   <!-- Deletes the existing build, docs and dist directory-->
